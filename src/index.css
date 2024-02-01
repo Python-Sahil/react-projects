@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&family=Cedarville+Cursive&family=Encode+Sans+SC:wght@400;500&family=Finger+Paint&family=Gorditas&family=Kranky&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100&family=Rubik+Gemstones&family=Style+Script&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    max-width: 1280px;
+    margin:0 auto;
+    align-items: center;
+}
+.brand-logo{
+    width: 76px;
+    height: 42.75px;
+    cursor: pointer;
+}
+
+ul.nav-bar{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    list-style-type: none;
+}
+li{
+    cursor: pointer;
+}
+
+button{
+    background-color: #D01C28;
+    color: white;
+    border:none;
+    height: 31px;
+    width: 75px;
+    cursor: pointer;
+}
+
+/* From here for Middle.jsx */
+
+.middle-section{
+    display: flex;
+    height: calc(100vh-72px);
+    max-width:1280px ;
+    margin:0 auto;
+    align-items: center;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    justify-content:center ;
+}
+.left-container h1{
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 102px;
+}
+.left-container p{
+    max-width: 404px;
+    font-size: 16px;
+    color: grey;
+    font-weight: 600;
+}
+
+.button-container{
+    display: flex;
+    gap: 40px;
+}
+
+.shop-now-button,
+.category-button{
+    width: 150px;
+    height: 41px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.category-button{
+    background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+}
+
+p.available-message{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shop-container{
+    display: flex;
+    gap: 8px;
+}
+
+
+/* for responsiveness */
