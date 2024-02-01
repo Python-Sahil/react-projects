@@ -1,6 +1,6 @@
 import './App.css'
 import Header from './components/Header'
-import Middle from './Middle'
+import Middle from './components/Middle'
 function App() {
 
   return (
